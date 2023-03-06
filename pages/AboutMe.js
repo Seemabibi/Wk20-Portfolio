@@ -5,8 +5,8 @@ export default function AboutMe() {
     <div>
       <h1>About Page</h1>
       <p>
-       I'm Seema, a web developer with 3 years+ experience, serving UK-based clients in web design,
-       web maintanence and graphic design. Additonal skills include copywriting, video editng and digital marketing.
+      My name is Seema, and I am a trainee web devloper. I love spending time on fixing little details and optimising web apps.
+      I learn faster working in a team, as the saying goes "two heads are better then one"
       </p>
     </div>
   );
