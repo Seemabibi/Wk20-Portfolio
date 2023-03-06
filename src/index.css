@@ -1,13 +1,82 @@
-body {
+Style.css
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.aligncenter {
+    text-align: center;
+}
+.h2 {
+    color:#f5cccc;
+}
+.p{
+    color:#f5cccc;
+}
+img {
+    border-radius: 10%;
+  }
+
+ .Projects
+ { color:#f5cccc;
+   font-size: 20px;
+   margin-right: 20px;
+ }
+
+
+.a {
+text-decoration: none;
+}
+
+*{
+    List-style: none;
+    text-decoration: none;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif
+}
+
+body {
+    background: #bdccac;
+}
+
+.Wrapper .sidebar {
+    background: rgb (5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0:
+    transition: all 0.5s ease;
+}
+
+  .Number {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
   }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 250px;
+}
